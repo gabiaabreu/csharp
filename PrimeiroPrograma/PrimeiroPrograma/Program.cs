@@ -31,3 +31,5 @@ Console.WriteLine(nota.ToString("F2", CultureInfo.InvariantCulture)); // imprime
 Console.WriteLine("{0} tem {1} anos e {2:F2} reais", nome, idade, saldo); // placeholders e concatenação
 
 Console.WriteLine($"{nome} tem {idade} anos e {saldo:F2} reais"); // interpolação
+
+Console.WriteLine(nome + " tem " + idade + " anos e " + saldo.ToString("F2") + " reais"); // concatenação
